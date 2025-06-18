@@ -7,7 +7,9 @@
 }
 
 .card {
-  width: 720px;
+  justify-content: space-between;
+  width: 100%;/*pegar 100% da tela*\
+  
   /* https://cssgenerator.org/box-shadow-css-generator.html */
   box-shadow: 11px 16px 13px 10px rgba(135, 122, 122, 0.65);
   -webkit-box-shadow: 11px 16px 13px 10px rgba(135, 122, 122, 0.65);
@@ -24,9 +26,12 @@
   padding-left: 10px;
 }
 
-.card_left > h1 {
+.card_left > a {
   margin-top: 15px;
   font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .card_left > p {
